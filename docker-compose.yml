@@ -1,10 +1,6 @@
-dev:
-  dockerfile: Dockerfile
-  volumes:
-    - .:/var/www/html
-  build: .
-  expose:
-    - "8080"
-    - "80"
-  ports:
-    - "8080:80"
+wordpress:
+    image: wordpress
+    ports:
+     - "8080:80"
+    volumes:
+     - /home/desenvolvimento/workspace/projeto-site:/var/www/html

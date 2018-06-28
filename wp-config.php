@@ -20,19 +20,19 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'database_name_here');
+define('DB_NAME', 'site_db');
 
 /** MySQL database username */
-define('DB_USER', 'username_here');
+define('DB_USER', 'conexao');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'password_here');
+define('DB_PASSWORD', 'bad27robot');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'site-db.cspx6pvikryz.us-east-2.rds.amazonaws.com');
 
 /** Database Charset to use in creating database tables. */
-define('DB_CHARSET', 'utf8');
+define('DB_CHARSET', 'utf8mb4');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
@@ -46,14 +46,14 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         'put your unique phrase here');
-define('SECURE_AUTH_KEY',  'put your unique phrase here');
-define('LOGGED_IN_KEY',    'put your unique phrase here');
-define('NONCE_KEY',        'put your unique phrase here');
-define('AUTH_SALT',        'put your unique phrase here');
-define('SECURE_AUTH_SALT', 'put your unique phrase here');
-define('LOGGED_IN_SALT',   'put your unique phrase here');
-define('NONCE_SALT',       'put your unique phrase here');
+define('AUTH_KEY',         ',b6NNu[siAodAH5;]|,~@Qe~ybss*nH=TX^wu%V%6--8_e,!:2ti7Ew*Wg[rYNlE');
+define('SECURE_AUTH_KEY',  '[F8JM<O)?@8hyJ{~N}NlD 8xW20t{oTl/!ZQI-|MJkzj4A+Fcw[_Fv,-J]dVsz}>');
+define('LOGGED_IN_KEY',    'GTi?cJoN0IkIP>qd/znsZ/{[wpt>EnFdaPAB~mnZoXG-9~y^w1cRM_9 {jt!%%$G');
+define('NONCE_KEY',        ' T_p!r{#DCsd0g`48jMjSRU.eIj9pY_HH>C-/An:l^FE/FMtbnNCch_e+4j%eU0a');
+define('AUTH_SALT',        '|p%H{P#:SA8Y/td}Ham~;8D<#OuY[V1jv6qGN*]Kr`E3WfQHDQYg,7yh^x8_h/(<');
+define('SECURE_AUTH_SALT', '-F3~3Cn9*j&&rb=_b6C/MIr1P>_u}CK9|-[?ru>j}<Uz#fA42$|<`9 P2<:vy?O7');
+define('LOGGED_IN_SALT',   'y#dQs]y?lU$2j(k{wEP,p>y;NIWe?Bgh.<ih3!`9pR^1;w3ApV5_@:nv%KKC958[');
+define('NONCE_SALT',       'sFrR=|1#&p?j2V{y{bS;nOPtwGn<GNeG$%vfGmOQY9KeKpoLTAO:o2{rWkcdxOi$');
 
 /**#@-*/
 
